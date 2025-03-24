@@ -1,0 +1,98 @@
+/*.header{ font: bold 7vw Arial, sans.serif } */
+header {
+    font: bold 15px Arial, sans-serif;
+    color: darkslateblue;
+    text-align: center; /*lo centre*/
+}
+
+
+p {
+    color: #0b0b0b;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #15a732;
+}
+
+.crumb ol{ 
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center; /*lo centre*/
+}
+
+.crumb {
+    display: inline-block;
+    text-align: center; /*lo centre*/
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: ">";
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.warning {
+    border: 10px ridge #420c98;
+    background-color: #0cca55;
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.warning img {
+    width: 50%;
+}
+
+.warning p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+}
+
+1{
+    text-align: center;
+    color:rgb(49, 49, 19);
+
+}
+
+label{
+
+    display: block;
+    margin:10px;
+    front-weight: bold;
+}
+
+imput, textarea, select{
+    width: 100;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+
+}
+
+input[type= "submit"]:hover {
+    background-color: blue; 
+
+
+}
